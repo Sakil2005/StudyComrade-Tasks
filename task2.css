@@ -1,0 +1,43 @@
+body {
+  background-color: lightgrey;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  width: 80%;
+  max-width: 800px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: red;
+  font-size: 2em;
+}
+
+img {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+#albums {
+  left: 10px;
+  top: 100px;
+  text-align: left;
+}
+
+#albums ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#footer {
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 50px;
+}

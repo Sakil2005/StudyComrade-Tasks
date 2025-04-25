@@ -1,0 +1,118 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Container for 3 boxes */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+/* Common styles for all boxes */
+.box {
+    width: 300px;
+    height: 200px;
+    border: 3px solid #333;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.hero-section {
+    height: 100vh;
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.VBeERXMsee6Vbfy2UAWZgAHaE8&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: rgb(37, 11, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Background images */
+.box1 {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.LmdQ5pnMem5IOcj5PXyY3AHaEK&pid=Api&P=0&h=180');
+}
+.box2 {
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.skKvKqvgakbmDsszw5iZrgHaEI&pid=Api&P=0&h=180');
+}
+.box3 {
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.-up0NYzQrAKTRdXFc8eGQgHaEo&pid=Api&P=0&h=180');
+}
+
+/* Text and button center overlay */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.content button {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content button:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Anchor styling */
+.fancy-link {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 40px auto 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.fancy-link:hover {
+    background-color: #0056b3;
+}
+
+/* Form with placeholder styling */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Placeholder pseudo-element */
+input::placeholder {
+    color: gray;
+    font-style: italic;
+    opacity: 0.7;
+}

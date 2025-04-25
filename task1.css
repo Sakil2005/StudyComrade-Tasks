@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c0d6b2;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  .center {
+    text-align: center;
+  }
+  .right {
+    text-align: right;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .trebuchet {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  }
+  
+  .big {
+    font-size: 2em;
+  }
+  
+  .small-white {
+    font-size: 0.7em;
+    color: white;
+    font-style: italic;
+  }
+  
+  a {
+    color: #0000EE;
+  }
+  a:visited {
+    color: #551A8B;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: darkblue;
+  }
+  
+  img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+  }

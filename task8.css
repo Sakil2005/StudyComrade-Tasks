@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-content {
+    background-color: rgba(0, 0, 0, 0.5); /* dark transparent layer */
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.overlay-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.overlay-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.overlay-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00b894;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.overlay-content button:hover {
+    background-color: #019875;
+}
