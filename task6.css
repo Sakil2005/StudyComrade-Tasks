@@ -1,75 +1,95 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-.container {
-    border: 2px solid black;
-    width: 90%;
-    margin: auto;
-}
-
-/* Header grid-like layout */
-.header .top-row {
+#section-f {
+    border: 1px solid rgb(11, 11, 11);
+    height: 190px;
+    margin: 25px 80px 0 80px;
     display: flex;
-    border-bottom: 1px solid #000;
 }
 
-.box {
-    flex: 1;
-    border: 1px solid #000;
-    min-height: 80px;
+#left-f {
+    width: 400px;
+    border-right: 1px solid black;
+}
+
+#middle-f {
+    width: 541px;
+}
+
+#right-f {
+    width: 400px;
+    border-left: 1px solid black;
+}
+
+.middle-box {
+    height: 130px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 30px;
+}
+
+#bold {
+    border: 1px solid;
+    margin-bottom: 5px;
+}
+
+#table {
+    border: 1px solid;
+    height: 120px;
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+.row {
+    border-bottom: 1px solid;
+    height: 30px;
+}
+
+#section-s {
+    border: 1px solid black;
+    margin: 0 60px 50px 60px;
+    padding: 5px;
+}
+
+#green, #blue {
+    border: 1px solid black;
+    padding: 25px;
+}
+
+#green {
+    background-color: rgb(71, 105, 71);
+    margin-bottom: 5px;
+}
+
+#blue {
+    background-color: rgb(6, 6, 152);
+    margin-top: 5px;
+}
+
+#boxes {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 5px;
 }
 
-.inner-box {
-    width: 80%;
-    height: 20px;
-    border: 1px solid #000;
-    margin: 4px 0;
+#left-s {
+    border: 1px solid black;
+    height: 600px;
+    width: 350px;
 }
 
-/* Green horizontal bar */
-.green-bar {
-    height: 40px;
-    background-color: olive;
-    border: 1px solid #000;
+#middle-s {
+    border: 1px solid black;
+    height: 600px;
+    width: 750px;
 }
 
-/* Main content layout with sidebars */
-.main {
-    display: flex;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
+#right-s {
+    border: 1px solid black;
+    height: 600px;
+    width: 300px;
 }
 
-.sidebar {
-    flex: 1;
-    border: 1px solid #aaa;
-    min-height: 300px;
-    background-color: #fff;
-}
-
-.content {
-    flex: 3;
-    text-align: center;
-    padding: 20px;
-    background-color: white;
-}
-
-.content img {
-    max-width: 100%;
-    height: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-}
-
-/* Footer */
-.footer {
-    height: 40px;
-    background-color: #1d3557;
-    border: 1px solid #000;
+img {
+    padding: 100px 3px;
+    height: 400px;
+    width: 680px;
+    
 }
