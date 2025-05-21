@@ -48,12 +48,12 @@ body {
   
   button.operator {
     background: #f3f3f3;
-    color: #222;
+    color: #1a1818;
   }
   
   button.equals {
     background: #ffb347;
-    color: #fff;
+    color: #171616;
   }
   
   button:active {
